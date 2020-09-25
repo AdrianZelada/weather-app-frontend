@@ -1,5 +1,5 @@
  <app-header></app-header>
- <mat-grid-list cols="4" rowHeight="100px">
+ <mat-grid-list cols="5" rowHeight="100px">
   <mat-grid-tile
       [colspan]="'1'"
       [rowspan]="8"
@@ -7,10 +7,10 @@
       <app-sidebar-countries></app-sidebar-countries>
   </mat-grid-tile>
   <mat-grid-tile
-      [colspan]="'3'"
+      [colspan]="'4'"
       [rowspan]="8"
       [style.background]="'yellow'">
-
+      <app-panel-weather></app-panel-weather>
   </mat-grid-tile>
 </mat-grid-list>
 
